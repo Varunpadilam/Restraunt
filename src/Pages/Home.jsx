@@ -66,12 +66,14 @@ function Home() {
         <div className="flex p-6 gap-6 justify-center">
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
+              <div className="flex justify-center">
               <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
                 <img
                   src="https://www.shutterstock.com/image-vector/satisfaction-icon-5-stars-reputation-260nw-1659792028.jpg"
                   alt=""
                   className="w-[120px] h-[120px] rounded-full"
                 />
+              </div>
               </div>
               <div className="w-[260px] p-5">
                 <hr />
@@ -89,12 +91,14 @@ function Home() {
           </div>
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
+              <div className="flex justify-center">
               <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
                 <img
                   src="https://media.istockphoto.com/id/1359129401/vector/licking-lips-emoji-tasty-food-symbol-yummy-sign.jpg?s=612x612&w=0&k=20&c=IuB0_fvBa0uvdGMzWjtgPruFU6lqDap5CimLCRGjx6I="
                   alt=""
                   className="w-[120px] h-[120px] rounded-full"
                 />
+              </div>
               </div>
               <div className="w-[260px] p-5 ">
                 <hr />
@@ -112,12 +116,14 @@ function Home() {
           </div>
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
+              <div className="flex justify-center">
               <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
                 <img
                   src="https://st.depositphotos.com/57803962/55510/v/450/depositphotos_555106746-stock-illustration-scooter-icon-vector-illustration.jpg"
                   alt=""
                   className="w-[120px] h-[120px] rounded-full"
                 />
+              </div>
               </div>
               <div className="w-[260px] p-5">
                 <hr />

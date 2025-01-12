@@ -1,13 +1,7 @@
 import React from "react";
-import HomePage from "./HomePage";
-import Navbar from "../Component/Navbar";
 import Body from "../Component/Body";
-import Fotter from "../Component/Fotter";
 import Reviewcard from "../Component/Reviewcard";
 import Items from "../Component/Items";
-import List from "../Component/List";
-import Contact from "./Contact";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import { ItemsData } from "../Configure/ItemsData";
 import { userdetails } from "../Configure/ReviewcardData";
 import { Link } from "react-router-dom";
@@ -17,13 +11,13 @@ function Home() {
     <>
       <Body />
       <div>
-        <div className="flex flex-col">
+        <div className="flex flex-col hidden md:block">
           <div className="flex justify-center pt-20">
             <h1 className="font-sans font-semibold text-5xl">
               About <span className="text-orange-500">Us</span>
             </h1>
           </div>
-          <div className="flex items-center pl-5 gap-5 justify-center">
+          <div className="flex items-center pl-5 gap-5 justify-center ">
             <img
               src="https://png.pngtree.com/background/20230618/original/pngtree-delicious-burger-with-many-ingredients-isolated-on-white-background-tasty-cheeseburger-picture-image_3713226.jpg"
               alt=""
@@ -57,23 +51,23 @@ function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="w-[100vw] md:w-auto">
         <div className="flex justify-center p-20">
           <h1 className="font-sans font-semibold text-5xl pt-20">
             Why <span className="text-orange-500">Us</span>
           </h1>
         </div>
-        <div className="flex p-6 gap-6 justify-center">
+        <div className="flex md:p-6 gap-6 items-center md:justify-center flex-col md:flex-row w-full">
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
               <div className="flex justify-center">
-              <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
-                <img
-                  src="https://www.shutterstock.com/image-vector/satisfaction-icon-5-stars-reputation-260nw-1659792028.jpg"
-                  alt=""
-                  className="w-[120px] h-[120px] rounded-full"
-                />
-              </div>
+                <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
+                  <img
+                    src="https://www.shutterstock.com/image-vector/satisfaction-icon-5-stars-reputation-260nw-1659792028.jpg"
+                    alt=""
+                    className="w-[120px] h-[120px] rounded-full"
+                  />
+                </div>
               </div>
               <div className="w-[260px] p-5">
                 <hr />
@@ -92,13 +86,13 @@ function Home() {
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
               <div className="flex justify-center">
-              <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
-                <img
-                  src="https://media.istockphoto.com/id/1359129401/vector/licking-lips-emoji-tasty-food-symbol-yummy-sign.jpg?s=612x612&w=0&k=20&c=IuB0_fvBa0uvdGMzWjtgPruFU6lqDap5CimLCRGjx6I="
-                  alt=""
-                  className="w-[120px] h-[120px] rounded-full"
-                />
-              </div>
+                <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
+                  <img
+                    src="https://media.istockphoto.com/id/1359129401/vector/licking-lips-emoji-tasty-food-symbol-yummy-sign.jpg?s=612x612&w=0&k=20&c=IuB0_fvBa0uvdGMzWjtgPruFU6lqDap5CimLCRGjx6I="
+                    alt=""
+                    className="w-[120px] h-[120px] rounded-full"
+                  />
+                </div>
               </div>
               <div className="w-[260px] p-5 ">
                 <hr />
@@ -117,13 +111,13 @@ function Home() {
           <div className="flex flex-col">
             <div className="bg-white w-[322px] h-[370px] rounded-lg shadow-lg">
               <div className="flex justify-center">
-              <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
-                <img
-                  src="https://st.depositphotos.com/57803962/55510/v/450/depositphotos_555106746-stock-illustration-scooter-icon-vector-illustration.jpg"
-                  alt=""
-                  className="w-[120px] h-[120px] rounded-full"
-                />
-              </div>
+                <div className="bg-orange-500 rounded-full h-[180px] w-[180px] flex items-center justify-center">
+                  <img
+                    src="https://st.depositphotos.com/57803962/55510/v/450/depositphotos_555106746-stock-illustration-scooter-icon-vector-illustration.jpg"
+                    alt=""
+                    className="w-[120px] h-[120px] rounded-full"
+                  />
+                </div>
               </div>
               <div className="w-[260px] p-5">
                 <hr />
